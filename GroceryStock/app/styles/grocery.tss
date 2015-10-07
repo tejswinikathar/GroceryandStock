@@ -26,12 +26,22 @@
 	// width: "100%"
 // }
 
+"#prodName": {
+	text: "SUGAR",
+	
+	color: "white",
+	font: {
+		fontWeight: "bold",
+		fontSize: "20dp"
+	}
+}
 
 "#prodDetail": {
 	top: "20%",
-	//height: "10%",
+	height: "10%",
 	text: "sugar ..............",
-	color: "white"
+	color: "white",
+	left: "10%"
 }
 
 "#unitLable": {
@@ -137,4 +147,37 @@
 	width: "35%",
 	left: "55%",
 	tintColor: "#0395D2"
+}
+
+
+"#unitview": {
+	width: "100%",
+	height: "100%",
+	//backgroundColor: "black",
+	//opacity: "0.7"
+}
+
+"#units": {
+	//width: "50%",
+	height: "100%",
+	//top: "40%",
+	//opacity: "1",
+	color: "white",
+	backgroundColor: "white"
+	
+}
+"#outerView":{
+	top: "65%",
+	height: "50%",
+	backgroundColor: "white",
+	color: "white",
+	//opacity: "1.0"
+}
+
+"#upperView": {
+	top: "0%",
+	height: "65%",
+	width: "100%",
+	backgroundColor: "black",
+	opacity: "0.6"
 }

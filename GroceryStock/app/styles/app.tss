@@ -24,3 +24,13 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+".backButtonClass": {
+	image: "image/arrow_left.png",
+	left: "5%",
+	//top: "%",
+	width:"20%",
+	height: "40%"
+	
+	
+}

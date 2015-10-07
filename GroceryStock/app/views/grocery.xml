@@ -2,20 +2,14 @@
 	<View class="container" id="GroceryDetails">
 		<View class="opaqueView"></View>
 		<View id="mainView">
-			<View id="headerView"></View>
+			<View id="headerView">
+				<ImageView class="backButtonClass"></ImageView>
+				<Label id="prodName"></Label>
+			</View>
+			
 			<Label id="prodDetail"></Label>
 			<Label id="unitLable"></Label>
-			<TextField id="unitTxt"></TextField>
-			<!-- <View backgroundColor="#000000">
-				<Picker id="unitPicker" selectionIndicator="true" backgroundColor="#000000">
-					<PickerRow title="Select" backgroundColor="#000000"></PickerRow>
-					<PickerRow title="Kg."></PickerRow>
-					<PickerRow title="Grams."></PickerRow>
-					<PickerRow title="Liter"></PickerRow>
-					<PickerRow title="Dozen"></PickerRow>
-					<PickerRow title="Piece"></PickerRow>
-				</Picker>
-			</View> -->
+			<TextField id="unitTxt" onClick="selectUnitFun"></TextField>
 			<Label id="qtyLable"></Label>
 			<Button id="plusBtn" onClick="plusFun" >+</Button>
 			<TextField id="qtyTxt"></TextField>
@@ -23,5 +17,21 @@
 			<Button id="saveBtn">Save</Button>
 			<Button id="removeBtn">Remove</Button>
 		</View>
+		<View class="container" id="unitview"  visible="false">
+		<View id="upperView" onClick="backToDeatil"></View>
+		<View id="outerView">
+			<ListView id="units" onItemclick="unitClickFun">
+				<ListSection >
+					<ListItem title="Kilogram" ></ListItem>
+					<ListItem title="Gram" ></ListItem>
+					<ListItem title="Liter"></ListItem>
+					<ListItem title="Dozen"></ListItem>
+					<ListItem title="Piece"></ListItem>
+
+				</ListSection>
+			</ListView>
+		</View>
 	</View>
+	</View>
+	
 </Alloy>

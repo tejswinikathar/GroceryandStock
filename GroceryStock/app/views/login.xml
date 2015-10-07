@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container" id="login" width="100%" >
+		<Require id="widgetLogin"  type="widget" src="LOGIN"></Require>
+	</View>
+</Alloy>

@@ -1,0 +1,29 @@
+
+
+<Alloy>
+	<!-- View for overlay -->
+	<View class="overlayContainer"  onClick="displayCloseSlider"  id="nav"></View>
+	 
+	<!-- View for Slider -->
+	<View class="drawer" id="drawer">
+	 	<View class="navContainer"  layout="vertical" >
+	 		<View id="topView" height="55dp"  onClick="displayCloseSlider">
+					<ImageView  class="sliderLogoImg" id="sliderLogoImage" />
+					<ImageView  class="brandStrip" id="brandStripImage"/>
+			</View>
+	 		<!-- <TableView id="tableView"></TableView> -->
+	 		<ListView id="tableView" top="0">
+	 			<Templates>
+	 				<!-- template1 : LIST1 : L -->
+					<ItemTemplate name="template1_CA" backgroundColor="transparent" class="listItem">
+						<View class="listItemView">
+							<ImageView bindId="menuIcon" class="classImageIcon"></ImageView>
+							<Label bindId="menuTitle" class="classLabel"></Label>
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<!-- <ListSection id="tableSection"></ListSection> -->
+	 		</ListView>>
+	 	</View>
+	</View> 
+</Alloy>

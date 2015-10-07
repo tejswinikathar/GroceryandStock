@@ -1,0 +1,140 @@
+
+".container": {
+	//backgroundColor: "black",
+	
+}
+
+".opaqueView":  {
+	backgroundColor: "black",
+	height: "100%",
+	width: "100%",
+	opacity: "0.9"
+}
+
+"#headerView": {
+	backgroundColor: "#0395D2",
+	top: "0%",
+	height: "15%",
+	width: "100%",
+	left: "0%",
+	opacity: "1.0"
+}
+// 
+// "#GroceryDetails": {
+	// backgroundColor: "black",
+	// height: "100%",
+	// width: "100%"
+// }
+
+
+"#prodDetail": {
+	top: "20%",
+	//height: "10%",
+	text: "sugar ..............",
+	color: "white"
+}
+
+"#unitLable": {
+	text: "Unit :",
+	top: "40%",
+	left: "10%",
+	color:"white"
+	//width: "15%"
+}
+
+"#unitTxt": {
+	top: "38%",
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "7%",
+	width: "30%",
+	left: "30%",
+	color:"white",
+	hintText: "Select unit",
+	hintTextColor: "#0395D2",
+	leftButtonPadding: "10%",
+}
+
+// "#unitPicker": {
+	// top: "15%",
+	// width: "50%",
+	// height:"20%",
+	// visibleItems: "1",
+	// color: "black",
+	// tintColor: "gray"
+// 	
+// }
+
+"#qtyLable": {
+	text: "Quantity",
+	color:"white",
+	top: "50%"
+}
+
+"#minusBtn": {
+	top: "55%",
+	font: {
+		fontSize: "25dp"
+	},
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "10%",
+	width: "20%",
+	left: "10%",
+	tintColor: "#0395D2"
+}
+
+"#qtyTxt": {
+	top: "55%",
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "10%",
+	width: "30%",
+	left: "34.5%",
+	color:"white",
+	keyboardType: Titanium.UI.KEYBOARD_NUMBER_PAD,
+	leftButtonPadding: "10%"
+	
+}
+
+"#plusBtn": {
+	top: "55%",
+	font: {
+		fontSize: "25dp"
+	},
+	//backgroundColor:"gray",
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "10%",
+	width: "20%",
+	right: "10%",
+	tintColor: "#0395D2"
+}
+
+"#saveBtn": {
+	top: "70%",
+	font: {
+		fontSize: "15dp"
+	},
+	//backgroundColor:"gray",
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "10%",
+	width: "35%",
+	left: "10%",
+	tintColor: "#0395D2"
+}
+
+"#removeBtn": {
+	top: "70%",
+	font: {
+		fontSize: "15dp"
+	},
+	//backgroundColor:"gray",
+	borderColor: "gray",
+	borderRadius: "5",
+	height: "10%",
+	width: "35%",
+	left: "55%",
+	tintColor: "#0395D2"
+}

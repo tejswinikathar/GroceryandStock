@@ -1,0 +1,14 @@
+{
+	"global": {},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {
+		"LOGIN": "1.0",
+		"OVERLAY_SLIDER": "1.0"
+	}
+}

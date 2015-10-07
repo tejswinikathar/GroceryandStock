@@ -1,0 +1,27 @@
+<Alloy>
+	<View class="container" id="GroceryDetails">
+		<View class="opaqueView"></View>
+		<View id="mainView">
+			<View id="headerView"></View>
+			<Label id="prodDetail"></Label>
+			<Label id="unitLable"></Label>
+			<TextField id="unitTxt"></TextField>
+			<!-- <View backgroundColor="#000000">
+				<Picker id="unitPicker" selectionIndicator="true" backgroundColor="#000000">
+					<PickerRow title="Select" backgroundColor="#000000"></PickerRow>
+					<PickerRow title="Kg."></PickerRow>
+					<PickerRow title="Grams."></PickerRow>
+					<PickerRow title="Liter"></PickerRow>
+					<PickerRow title="Dozen"></PickerRow>
+					<PickerRow title="Piece"></PickerRow>
+				</Picker>
+			</View> -->
+			<Label id="qtyLable"></Label>
+			<Button id="plusBtn" onClick="plusFun" >+</Button>
+			<TextField id="qtyTxt"></TextField>
+			<Button id="minusBtn" onClick="minusFun">-</Button>
+			<Button id="saveBtn">Save</Button>
+			<Button id="removeBtn">Remove</Button>
+		</View>
+	</View>
+</Alloy>

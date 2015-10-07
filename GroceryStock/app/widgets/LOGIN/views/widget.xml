@@ -1,0 +1,30 @@
+<Alloy>
+	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true">
+		<View id="myView">
+			<ImageView id="imgTopRightStrip"></ImageView>
+			<ImageView id="imgLogo"></ImageView>
+			<Label id="lblVersion"></Label>
+			
+			<View id="viewEmail" class="viewTextField">
+				<TextField id="txtUsername" class="txtField"></TextField>
+				<ImageView id="imgDeleteEmail" class="clearImage" onClick="clearText"></ImageView>
+			</View>
+			
+			<View id="viewPassword" class="viewTextField">
+				<TextField id="txtPassword" passwordMask="true" class="txtField"></TextField>
+				<ImageView id="imgDeletePassword" class="clearImage" onClick="clearText"></ImageView>
+			</View>
+			
+			<Button id="btnLogin"></Button>
+			<View id="lineUpSSI" class="viewLine"></View>
+			<View id="viewSSI">
+				<Label id="lblStaySignedIn"></Label>
+				<Switch id="swiStaySignedIn"></Switch>
+			</View>
+			<View id="lineDownSSI" class="viewLine"></View>
+			<View>
+				<Label id="lblForgotPassword"></Label>
+			</View>
+		</View>
+	</ScrollView>
+</Alloy>

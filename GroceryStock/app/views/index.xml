@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container" id="mainWin">
+		<!-- <View id="menu">
+		<Require id="menuSliderWidget"  type="widget" src="OVERLAY_SLIDER"></Require>
+		</View> -->
+		<Require id="menuSliderWidget"  type="widget" src="OVERLAY_SLIDER">
+		</Require>
+		<View id="contentView" width="100%" >
+		</View>
+	</Window>
+</Alloy>

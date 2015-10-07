@@ -70,3 +70,14 @@
 	tintColor:"#0380AF",
 }
 
+"#masterListHeaderLabel":{
+	color:"#FFFFFF"
+}
+
+"#masterListHeaderRhsImage":{
+	image: "/images/addIcon.png",
+	left:"80%",
+	top:"40%",
+	width:"15%",
+	height:"18%"
+}

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Alloy>
 	<View id="masterList" class="container" layout="vertical">
-		<View id="v6"></View>
+		<View id="v6">
+			<Label id="masterListHeaderLabel">Master List</Label>
+			<ImageView id="masterListHeaderRhsImage" onClick="clk"></ImageView>
+		</View>
 		<View id="masterListViewForListview">
 			<ListView id="ListForMaster" defaultItemTemplate="template1">
 				<Templates>

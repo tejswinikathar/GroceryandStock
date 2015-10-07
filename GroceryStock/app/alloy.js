@@ -32,7 +32,7 @@
 * Create an instance of utils/constants.js & use the same instance through out the app.
 */
 
-
+var k=0;
 var jsonUtils = require('/utils/jsonUtils');
 
 //var appConfig = {};

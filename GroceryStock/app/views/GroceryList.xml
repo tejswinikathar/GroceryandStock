@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Alloy>
 	<View id="GroceryList" class="container" layout="vertical">
-		<View id="v6"></View>
+		<View id="v6">
+			<Label id="GroceryListHeaderLabel">Grocery List</Label>
+		</View>
 		<View id="GroceryListViewForListview">
-			<ListView id="ListForMaster" defaultItemTemplate="template1">
+			<ListView id="ListForGrocery" defaultItemTemplate="template1">
 				<Templates>
 					<ItemTemplate id="GroceryListItemTemplate" name="template1" height="20dp">
 						<ImageView bindId="GroceryListListImage" id="image"/>
@@ -13,7 +15,7 @@
 			</ListView>
 		</View>
 		<View id="GroceryListButtonView">
-			<Button id="GroceryListButton" onClick="GroceryListButtonAction"></Button>
+				<Button id="GroceryListButton" onClick="GroceryListButtonAction"></Button>
 		</View>
 	</View>
 </Alloy>

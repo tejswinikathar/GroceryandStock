@@ -53,7 +53,7 @@ function login() {
 
 	var loginValues = $.widgetLogin.getValues();
 	$.widgetLogin.hideKeyboard();
-
+core.Navigator.openView("GroceryList");
 	if (loginValues != null && (loginValues[0].trim() !== "" || loginValues[1].trim() !== "")) {
 
 /*		if(getUserName.indexOf(' ') >= 0){
@@ -87,7 +87,7 @@ function login() {
 		
 		core.Navigator.indexController.initializeNavigationDrawer();
 		
-		core.Navigator.indexController.showHideSlider();
+		//core.Navigator.indexController.showHideSlider();
 		
 		// setTimeout(function(){
 			// core.Navigator.indexController.showHideSlider();
@@ -104,6 +104,7 @@ function login() {
 			message : Constants.RESP_Codes.UNAUTHORISED_USER_MSG
 		});
 		dialog.show();
+		
 	}
 }
 

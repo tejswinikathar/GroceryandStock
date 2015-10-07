@@ -30,7 +30,7 @@ function itemClickFunction(e) {
 	switch(item.menuTitle.text) {
 	case "Grocery":
 	
-		core.Navigator.openView("grocery");
+		core.Navigator.openView("GroceryList");
 		
 		break;
 	case "Stocks":

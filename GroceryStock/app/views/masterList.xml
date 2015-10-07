@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Alloy>
+	<View id="masterList" class="container" layout="vertical">
+		<View id="v6"></View>
+		<View id="masterListViewForListview">
+			<ListView id="ListForMaster" defaultItemTemplate="template1">
+				<Templates>
+					<ItemTemplate id="MasterlistItemTemplate" name="template1" height="20dp">
+						<ImageView bindId="ManageCloudListImage" id="image"/>
+						<Label bindId="MasterlistItemLabelBindId" id="MasterlistItemLabel"/>
+					</ItemTemplate>
+				</Templates>
+			</ListView>
+		</View>
+		<View id="masterListButtonView">
+			<Button id="masterListButton" onClick="masterListButtonAction"></Button>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,72 @@
+".container": {
+	backgroundColor: "#F0F0F0",
+	borderWidth: "3%",
+	borderColor: "#C9C9CF",
+	color: "#F0F6FA"
+}
+
+
+"#ListForMaster": {
+	backgroundColor: "#F0F0F0",
+	top: "0%",
+	height: "30dp",
+	width: "96%",
+	left: "2%",
+	//canScroll:"false"
+}
+
+"#masterListViewForListview":{
+	top: "2%",
+	height:"70%"
+}
+
+"#image":{
+	height: "40%",
+	width: "10%",
+	left: "5%"
+}
+/*
+"#label1":{
+	height: "5%",
+	left: "20%"
+}*/
+
+
+"#MasterlistItemLabel": {
+	color: "#0395D2",
+	top: "20%",
+	left: "40dp",
+	font:{
+		fontSize: "16dp",
+		font: "Times New Roman",
+		fontWeight: "Bold"
+	}
+}
+
+"#MasterlistItemTemplate":{
+	height: "50dp"
+}
+"#v6": {
+	backgroundColor: "#0395D2",
+	top: "0%",
+	height: "15%",
+	width: "100%",
+	left: "0%"
+}
+
+"#masterListButtonView":{
+	top:"0%",
+	backgroundColor: "#0380AF"
+}
+
+"#masterListButton":{
+	borderRadius:5,
+	borderColor:"#C9C9CF",
+	top: "25%",
+	width: "86%", height: "30%", left: "7%",
+	backgroundColor: "#FFFFFF",
+	color:"red",
+	title:"ADD",
+	tintColor:"#0380AF",
+}
+
